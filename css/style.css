@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@400;500;700&family=Yanone+Kaffeesatz:wght@400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic&display=swap&subset=cyrillic-ext');
+
+@font-face {
+    font-family: 'Adobe Text Pro';
+    src:url('../fonts/AdobeTextPro-BoldIt.woff2') format('woff2'),
+       url('../fonts/AdobeTextPro-BoldIt.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Adobe Text Pro';
+    src:url('../fonts/AdobeTextPro-Semibold.woff2') format('woff2'),
+       url('../fonts/AdobeTextPro-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Adobe Text Pro';
+    src:url('../fonts/AdobeTextPro-Regular.woff2') format('woff2'),
+       url('../fonts/AdobeTextPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+/* Стили обнуления */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body {
+    background-color: rgb(236, 220, 220);
+	color: #308665;
+	line-height: 1;
+	font-family:'Montserrat', sans-serif;
+}
+img{
+    width: 700px;
+}
+/* ------------------ */
+.header {
+    font-size: 20px;
+    color: burlywood;
+    text-align: center;
+}
+nav>a{
+    font-size: 40px;
+    color: darkgoldenrod;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: rgb(127, 207, 46);
+    text-shadow: 4px -2px 4px rgb(12, 12, 83);
+}
+a.btn{
+    text-decoration-color: darkmagenta;
+    text-decoration-line: line-through;
+}
+.list li{
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.list>li>a{
+    color: darkorange;
+}
+/* ==========================================================================main===================================== */
+h1{
+    font-size: 50px;
+    font-weight: 800;
+    color: darkred;
+    letter-spacing: 3px;
+    line-height: 1.7;
+    text-align: center;
+}
+.main_span{
+    font-size: 60px;
+    color: rgb(82, 218, 143);
+    text-transform: uppercase;
+}
+h2{
+    font-family: 'Adobe Text Pro';
+    font-size: 40px;
+    color: midnightblue;
+    text-decoration:overline;
+    text-decoration-color:yellow ;
+    text-shadow:3px 3px  2px tomato;
+}
+p{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text_termin{
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    color: orangered;
+    text-shadow:2px 3px 2px  rebeccapurple;
+}
+.subtitle{
+    color: crimson;
+    font-weight: 600;
+    font-style: italic;
+    text-indent: 20px;
+    line-height: 2.0;
+    text-shadow:1px 3px 8px darkgreen,-3px 5px 1px orange;
+}
+h3{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    color:silver;
+    letter-spacing: 3px;
+    text-shadow:
+    4px 4px 1px #300000,
+    4px 6px 1px #400000,
+    4px 8px 1px #500000,
+    4px 10px 1px #600000,
+    4px 12px 1px #700000,
+    4px 14px 1px #800000,
+    4px 16px 1px #900000,
+    4px 18px 1px #A00000,
+    4px 20px 1px #B00000,
+    4px 22px 1px #C00000,
+    4px 24px 1px #D00000,
+    4px 26px 1px #E00000,
+    4px 28px 1px #F00000,
+    4px 30px 1px #FA0000,
+    4px 32px 1px #FB0000,
+    4px 34px 1px #FC0000,
+    4px 36px 1px #FD0000,
+    4px 38px 1px #FE0000,
+    4px 40px 2px #FF0000;
+    padding-bottom: 20px;
+}
+.lilist{
+    font-size: 14px;
+    line-height: 3.0;
+    text-transform: capitalize;
+    text-shadow: 4px -2px 6px #FD0000,-1px -2px 3px white;
+}
+.fotka{
+    box-shadow: 0px 10px 15px 10px #000;
+}
+.text_today{
+    columns: 19px;
+    letter-spacing: 3px;
+    line-height: 2;
+    text-decoration: line-through;
+    text-shadow:-2px 3px 3px indigo;
+}
+.who_is .text_more{
+    font-size: 25px;
+    font-weight: 900;
+    font-style: italic;
+    color: turquoise;
+    text-shadow:-4px -4px 4px rgb(109, 109, 160),2px 2px 2px yellow;
+}
+.of_course{
+    font-size: 40px;
+    font-weight: 100;
+    color: whitesmoke;
+    text-shadow:6px 6px 4px black;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: lowercase;
+}
+/* ===================footer============================== */
+footer{
+    background-color: #222222;
+}
+footer>p{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(0,0,0,0.6);
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
+}
+footer a{
+    color: white;
+    font-size: 30px;
+    text-shadow: -10px 10px 0px #00e6e6,-20px 20px 0px #01cccc,-30px 30px 0px #00bdbd;
+    padding-bottom: 30px;
+ }
+ h4{
+     font-family:'Raleway', sans-serif;
+     font-weight: 700;
+     font-style: italic;
+     font-size: 23px;
+     color: royalblue;
+     text-decoration: underline;
+     text-decoration-color: red;
+ }
+ .text_last{
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 2px -2px 3px greenyellow;
+ }
+ span {
+     font-family: 'Adobe Text Pro';
+     font-style: italic;
+     font-weight: bold;
+     font-size: 50px;
+     color: rgba(221, 43, 23, 0.897);
+     text-decoration: line-through;
+ }
